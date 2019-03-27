@@ -17,6 +17,8 @@ class Pokemon
     pokemon_by_id = db.execute("SELECT * FROM pokemon WHERE id = ?", number).flatten
     
     id = pokemon_by_id[0]
+    name = pokemon_by_id[1]
+    type = pokemon_by_id[2]
   end
   
 end
