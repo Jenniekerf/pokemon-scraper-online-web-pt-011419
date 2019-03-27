@@ -19,6 +19,8 @@ class Pokemon
     id = pokemon_by_id[0]
     name = pokemon_by_id[1]
     type = pokemon_by_id[2]
+    
+    new_pokemon = Pokemon.new 
   end
   
 end
