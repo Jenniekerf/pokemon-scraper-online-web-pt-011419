@@ -17,7 +17,7 @@ class Pokemon
   
   def self.find(number, db) 
     pokemon_by_id = db.execute("SELECT * FROM pokemon WHERE id = ?",number)
-    binding.pry
+    #binding.pry
     id = pokemon_by_id[0][0]
     name = pokemon_by_id[0][1]
     type = pokemon_by_id[0][2]
