@@ -22,7 +22,7 @@ class Pokemon
     name = pokemon_by_id[0][1]
     type = pokemon_by_id[0][2]
     
-    new_pokemon = Pokemon.new(id:id, name:name, type:type, db:db)
+    new_pokemon = Pokemon.new(id:id, name:name, type:type)
     
     return new_pokemon
   end
